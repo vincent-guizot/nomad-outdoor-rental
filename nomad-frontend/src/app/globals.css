@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-nomad-50 text-nomad-950 antialiased;
+  }
+
+  .dark body {
+    @apply bg-nomad-950 text-nomad-50;
+  }
+}

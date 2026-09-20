@@ -1,0 +1,1424 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Vincent G.",
+            "email": "vincent@nomad.com",
+            "password": "password123",
+            "avatar": "https://picsum.photos/seed/vincent/200/200",
+            "role": "Owner"
+        },
+        {
+            "id": 2,
+            "name": "Dino P.",
+            "email": "dino@nomad.com",
+            "password": "password123",
+            "avatar": "https://picsum.photos/seed/dino/200/200",
+            "role": "Admin"
+        },
+        {
+            "id": 3,
+            "name": "Dina P.",
+            "email": "dina@nomad.com",
+            "password": "password123",
+            "avatar": "https://picsum.photos/seed/dina/200/200",
+            "role": "Admin"
+        },
+        {
+            "id": 4,
+            "name": "Jake M.",
+            "email": "jake@example.com",
+            "password": "password123",
+            "avatar": "https://picsum.photos/seed/jake/200/200",
+            "role": "Member"
+        },
+        {
+            "id": 5,
+            "name": "Olivia R.",
+            "email": "olivia@example.com",
+            "password": "password123",
+            "avatar": "https://picsum.photos/seed/olivia/200/200",
+            "role": "Member"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Tents",
+            "slug": "tents",
+            "icon": "tents_and_shelters",
+            "productCount": 24
+        },
+        {
+            "id": 2,
+            "name": "Backpacks",
+            "slug": "backpacks",
+            "icon": "backpacks_and_bags",
+            "productCount": 32
+        },
+        {
+            "id": 3,
+            "name": "Sleeping",
+            "slug": "sleeping",
+            "icon": "sleeping_gear",
+            "productCount": 18
+        },
+        {
+            "id": 4,
+            "name": "Cooking",
+            "slug": "cooking",
+            "icon": "camp_kitchen",
+            "productCount": 16
+        },
+        {
+            "id": 5,
+            "name": "Clothing",
+            "slug": "clothing",
+            "icon": "outdoor_clothing",
+            "productCount": 28
+        },
+        {
+            "id": 6,
+            "name": "Footwear",
+            "slug": "footwear",
+            "icon": "footwear",
+            "productCount": 20
+        },
+        {
+            "id": 7,
+            "name": "Accessories",
+            "slug": "accessories",
+            "icon": "camp_accessories",
+            "productCount": 35
+        },
+        {
+            "id": 8,
+            "name": "Tools",
+            "slug": "tools",
+            "icon": "tools_and_repair",
+            "productCount": 12
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "MSR Hubba Hubba NX 2P",
+            "slug": "msr-hubba-hubba-nx-2p",
+            "brand": "MSR",
+            "category": "tents",
+            "price": 429.00,
+            "rentPricePerDay": 29.00,
+            "colors": [
+                "Green",
+                "Grey",
+                "Red"
+            ],
+            "sizes": [],
+            "rating": 4.8,
+            "reviewCount": 120,
+            "badge": "Best Seller",
+            "featured": true,
+            "isRentable": true,
+            "inStock": true,
+            "description": "Lightweight, durable, and built for hardcore adventures. The perfect balance of weight, livability, and weather protection for 3-season backpacking.",
+            "specs": {
+                "weight": "3.5 lbs",
+                "capacity": "2 Person",
+                "season": "3 Season",
+                "waterproof": "1200mm"
+            },
+            "features": [
+                "Easy Setup",
+                "Excellent Ventilation",
+                "Spacious Interior",
+                "Weather Protection"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Osprey Atmos AG 65",
+            "slug": "osprey-atmos-ag-65",
+            "brand": "Osprey",
+            "category": "backpacks",
+            "price": 319.00,
+            "rentPricePerDay": 19.00,
+            "colors": [
+                "Black",
+                "Green"
+            ],
+            "sizes": [
+                "S/M",
+                "L/XL"
+            ],
+            "rating": 4.7,
+            "reviewCount": 98,
+            "badge": null,
+            "featured": true,
+            "isRentable": true,
+            "inStock": true,
+            "description": "Premium trekking backpack with Anti-Gravity suspension for all-day comfort on the trail.",
+            "specs": {
+                "weight": "4.6 lbs",
+                "capacity": "65L",
+                "season": null,
+                "waterproof": null
+            },
+            "features": [
+                "Anti-Gravity Suspension",
+                "Adjustable Fit",
+                "Multiple Pockets",
+                "Rain Cover Included"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Sea to Summit Spark II",
+            "slug": "sea-to-summit-spark-ii",
+            "brand": "Sea to Summit",
+            "category": "sleeping",
+            "price": 149.00,
+            "rentPricePerDay": 15.00,
+            "colors": [
+                "Blue"
+            ],
+            "sizes": [
+                "Regular",
+                "Long"
+            ],
+            "rating": 4.6,
+            "reviewCount": 76,
+            "badge": null,
+            "featured": false,
+            "isRentable": true,
+            "inStock": true,
+            "description": "Ultralight down sleeping bag designed for fast-and-light backpacking trips.",
+            "specs": {
+                "weight": "1.1 lbs",
+                "capacity": null,
+                "season": "3 Season",
+                "waterproof": null
+            },
+            "features": [
+                "Ultralight Down Fill",
+                "Compact Pack Size",
+                "Water-Resistant Shell"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Nomad Camp Stove",
+            "slug": "nomad-camp-stove",
+            "brand": "Nomad",
+            "category": "cooking",
+            "price": 89.00,
+            "rentPricePerDay": null,
+            "colors": [
+                "Black"
+            ],
+            "sizes": [],
+            "rating": 4.9,
+            "reviewCount": 63,
+            "badge": null,
+            "featured": true,
+            "isRentable": false,
+            "inStock": true,
+            "description": "Compact and reliable camp stove for cooking anywhere in the backcountry.",
+            "specs": {
+                "weight": "2.2 lbs",
+                "capacity": null,
+                "season": null,
+                "waterproof": null
+            },
+            "features": [
+                "Wind-Resistant Burner",
+                "Foldable Design",
+                "Compatible with Standard Fuel Canisters"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Jetboil Flash 2.0",
+            "slug": "jetboil-flash-2",
+            "brand": "Jetboil",
+            "category": "cooking",
+            "price": 109.95,
+            "rentPricePerDay": 9.00,
+            "colors": [
+                "Black",
+                "Grey"
+            ],
+            "sizes": [],
+            "rating": 4.6,
+            "reviewCount": 63,
+            "badge": null,
+            "featured": false,
+            "isRentable": true,
+            "inStock": true,
+            "description": "Compact cooking system that boils water in under two minutes.",
+            "specs": {
+                "weight": "0.9 lbs",
+                "capacity": "1L",
+                "season": null,
+                "waterproof": null
+            },
+            "features": [
+                "Fast Boil Time",
+                "Integrated Igniter",
+                "Compact & Lightweight"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "All-Weather Jacket",
+            "slug": "all-weather-jacket",
+            "brand": "Nomad",
+            "category": "clothing",
+            "price": 139.00,
+            "rentPricePerDay": null,
+            "colors": [
+                "Brown",
+                "Black",
+                "Green"
+            ],
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "rating": 4.5,
+            "reviewCount": 54,
+            "badge": null,
+            "featured": false,
+            "isRentable": false,
+            "inStock": true,
+            "description": "Durable, weatherproof jacket built to keep you protected in any condition.",
+            "specs": {
+                "weight": null,
+                "capacity": null,
+                "season": "All Season",
+                "waterproof": "5000mm"
+            },
+            "features": [
+                "Windproof",
+                "Waterproof",
+                "Breathable Fabric",
+                "Adjustable Hood"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Hiking Boots Pro",
+            "slug": "hiking-boots-pro",
+            "brand": "Nomad",
+            "category": "footwear",
+            "price": 169.00,
+            "rentPricePerDay": null,
+            "colors": [
+                "Brown"
+            ],
+            "sizes": [
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+            ],
+            "rating": 4.7,
+            "reviewCount": 88,
+            "badge": null,
+            "featured": true,
+            "isRentable": false,
+            "inStock": true,
+            "description": "Rugged hiking boots with superior traction and ankle support for any terrain.",
+            "specs": {
+                "weight": "2.4 lbs",
+                "capacity": null,
+                "season": null,
+                "waterproof": "Yes"
+            },
+            "features": [
+                "Waterproof Membrane",
+                "Reinforced Toe Cap",
+                "High-Grip Outsole"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Goal Zero Lighthouse 600",
+            "slug": "goal-zero-lighthouse-600",
+            "brand": "Goal Zero",
+            "category": "accessories",
+            "price": 79.95,
+            "rentPricePerDay": 8.00,
+            "colors": [
+                "Black"
+            ],
+            "sizes": [],
+            "rating": 4.6,
+            "reviewCount": 72,
+            "badge": null,
+            "featured": false,
+            "isRentable": true,
+            "inStock": true,
+            "description": "Rechargeable lantern with built-in power bank for charging devices on the go.",
+            "specs": {
+                "weight": "1.0 lbs",
+                "capacity": null,
+                "season": null,
+                "waterproof": null
+            },
+            "features": [
+                "USB Power Bank",
+                "Dimmable Light",
+                "Hand Crank Charging"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Black Diamond Trek Poles",
+            "slug": "black-diamond-trek-poles",
+            "brand": "Black Diamond",
+            "category": "accessories",
+            "price": 139.00,
+            "rentPricePerDay": 6.00,
+            "colors": [
+                "Black",
+                "Grey"
+            ],
+            "sizes": [],
+            "rating": 4.5,
+            "reviewCount": 128,
+            "badge": null,
+            "featured": false,
+            "isRentable": true,
+            "inStock": true,
+            "description": "Adjustable trekking poles for stability and reduced strain on long trails.",
+            "specs": {
+                "weight": "1.1 lbs (pair)",
+                "capacity": null,
+                "season": null,
+                "waterproof": null
+            },
+            "features": [
+                "Adjustable Length",
+                "Cork Grip Handles",
+                "Foldable Design"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Petzl Actik Core Headlamp",
+            "slug": "petzl-actik-core-headlamp",
+            "brand": "Petzl",
+            "category": "accessories",
+            "price": 59.95,
+            "rentPricePerDay": null,
+            "colors": [
+                "Black"
+            ],
+            "sizes": [],
+            "rating": 4.6,
+            "reviewCount": 84,
+            "badge": null,
+            "featured": false,
+            "isRentable": false,
+            "inStock": true,
+            "description": "Compact rechargeable headlamp with reliable brightness for night hikes and camp use.",
+            "specs": {
+                "weight": "0.2 lbs",
+                "capacity": null,
+                "season": null,
+                "waterproof": "IPX4"
+            },
+            "features": [
+                "Rechargeable Battery",
+                "Red Night Vision Mode",
+                "Adjustable Strap"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Therm-a-Rest NeoAir XLite",
+            "slug": "therm-a-rest-neoair-xlite",
+            "brand": "Therm-a-Rest",
+            "category": "sleeping",
+            "price": 199.95,
+            "rentPricePerDay": 10.00,
+            "colors": [
+                "Green"
+            ],
+            "sizes": [
+                "Regular",
+                "Long"
+            ],
+            "rating": 4.8,
+            "reviewCount": 101,
+            "badge": null,
+            "featured": false,
+            "isRentable": true,
+            "inStock": true,
+            "description": "Ultralight sleeping pad offering exceptional warmth-to-weight ratio for backpacking.",
+            "specs": {
+                "weight": "0.75 lbs",
+                "capacity": null,
+                "season": null,
+                "waterproof": null
+            },
+            "features": [
+                "Ultralight",
+                "High R-Value Insulation",
+                "Compact Pack Size"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Helinox Chair One",
+            "slug": "helinox-chair-one",
+            "brand": "Helinox",
+            "category": "accessories",
+            "price": 119.95,
+            "rentPricePerDay": 7.00,
+            "colors": [
+                "Black",
+                "Green"
+            ],
+            "sizes": [],
+            "rating": 4.6,
+            "reviewCount": 58,
+            "badge": null,
+            "featured": false,
+            "isRentable": true,
+            "inStock": true,
+            "description": "Ultra-portable camping chair that packs down small without sacrificing comfort.",
+            "specs": {
+                "weight": "2.0 lbs",
+                "capacity": null,
+                "season": null,
+                "waterproof": null
+            },
+            "features": [
+                "Ultra-Portable",
+                "Sturdy Aluminum Frame",
+                "Quick Setup"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Nomad 2P Tent",
+            "slug": "nomad-2p-tent",
+            "brand": "Nomad",
+            "category": "tents",
+            "price": 249.00,
+            "rentPricePerDay": null,
+            "colors": [
+                "Orange",
+                "Green"
+            ],
+            "sizes": [],
+            "rating": 4.8,
+            "reviewCount": 120,
+            "badge": "Best Seller",
+            "featured": true,
+            "isRentable": false,
+            "inStock": true,
+            "description": "Reliable 2-person tent built for weekend getaways and everyday adventures.",
+            "specs": {
+                "weight": "4.1 lbs",
+                "capacity": "2 Person",
+                "season": "3 Season",
+                "waterproof": "1000mm"
+            },
+            "features": [
+                "Quick Pitch",
+                "Double-Wall Design",
+                "Two Vestibules"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Trailblazer 45L Backpack",
+            "slug": "trailblazer-45l-backpack",
+            "brand": "Nomad",
+            "category": "backpacks",
+            "price": 159.00,
+            "rentPricePerDay": null,
+            "colors": [
+                "Green",
+                "Black"
+            ],
+            "sizes": [
+                "One Size"
+            ],
+            "rating": 4.7,
+            "reviewCount": 98,
+            "badge": null,
+            "featured": true,
+            "isRentable": false,
+            "inStock": true,
+            "description": "Versatile 45L backpack for multi-day treks and everyday hauling.",
+            "specs": {
+                "weight": "3.2 lbs",
+                "capacity": "45L",
+                "season": null,
+                "waterproof": null
+            },
+            "features": [
+                "Padded Hip Belt",
+                "Hydration Compatible",
+                "Multiple Compartments"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Summit 0°C Sleeping Bag",
+            "slug": "summit-0c-sleeping-bag",
+            "brand": "Nomad",
+            "category": "sleeping",
+            "price": 129.00,
+            "rentPricePerDay": null,
+            "colors": [
+                "Blue"
+            ],
+            "sizes": [
+                "Regular"
+            ],
+            "rating": 4.6,
+            "reviewCount": 76,
+            "badge": null,
+            "featured": true,
+            "isRentable": false,
+            "inStock": true,
+            "description": "Reliable 0°C rated sleeping bag for cold-weather camping trips.",
+            "specs": {
+                "weight": "2.8 lbs",
+                "capacity": null,
+                "season": "Cold Weather",
+                "waterproof": null
+            },
+            "features": [
+                "0°C Rating",
+                "Insulated Hood",
+                "Full-Length Zipper"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Sea to Summit Spark III",
+            "slug": "sea-to-summit-spark-iii",
+            "brand": "Sea to Summit",
+            "category": "sleeping",
+            "price": 179.00,
+            "rentPricePerDay": 15.00,
+            "colors": [
+                "Blue"
+            ],
+            "sizes": [
+                "Regular",
+                "Long"
+            ],
+            "rating": 4.6,
+            "reviewCount": 76,
+            "badge": null,
+            "featured": false,
+            "isRentable": true,
+            "inStock": true,
+            "description": "Ultralight down sleeping bag with roomier fit than the Spark II.",
+            "specs": {
+                "weight": "1.3 lbs",
+                "capacity": null,
+                "season": "3 Season",
+                "waterproof": null
+            },
+            "features": [
+                "Ultralight Down Fill",
+                "Roomier Fit",
+                "Compact Pack Size"
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Explorer Lantern",
+            "slug": "explorer-lantern",
+            "brand": "Nomad",
+            "category": "accessories",
+            "price": 49.00,
+            "rentPricePerDay": null,
+            "colors": [
+                "Black"
+            ],
+            "sizes": [],
+            "rating": 4.6,
+            "reviewCount": 41,
+            "badge": null,
+            "featured": false,
+            "isRentable": false,
+            "inStock": true,
+            "description": "Classic-style camp lantern with warm, adjustable lighting.",
+            "specs": {
+                "weight": "0.8 lbs",
+                "capacity": null,
+                "season": null,
+                "waterproof": null
+            },
+            "features": [
+                "Adjustable Brightness",
+                "Long Battery Life",
+                "Compact Design"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Multi-Tool Pro",
+            "slug": "multi-tool-pro",
+            "brand": "Nomad",
+            "category": "tools",
+            "price": 45.00,
+            "rentPricePerDay": null,
+            "colors": [
+                "Silver/Black"
+            ],
+            "sizes": [],
+            "rating": 4.5,
+            "reviewCount": 37,
+            "badge": null,
+            "featured": false,
+            "isRentable": false,
+            "inStock": true,
+            "description": "Compact multi-tool with everything you need for quick repairs on the trail.",
+            "specs": {
+                "weight": "0.4 lbs",
+                "capacity": null,
+                "season": null,
+                "waterproof": null
+            },
+            "features": [
+                "8-in-1 Functionality",
+                "Stainless Steel",
+                "Includes Belt Pouch"
+            ]
+        },
+        {
+            "id": 19,
+            "name": "The North Face Stormbreak 2",
+            "slug": "north-face-stormbreak-2",
+            "brand": "The North Face",
+            "category": "tents",
+            "price": 169.00,
+            "rentPricePerDay": 12.00,
+            "colors": [
+                "Grey",
+                "Green"
+            ],
+            "sizes": [],
+            "rating": 4.4,
+            "reviewCount": 63,
+            "badge": null,
+            "featured": false,
+            "isRentable": true,
+            "inStock": true,
+            "description": "Affordable and reliable freestanding tent, great for beginners and weekend trips.",
+            "specs": {
+                "weight": "5.1 lbs",
+                "capacity": "2 Person",
+                "season": "3 Season",
+                "waterproof": "1500mm"
+            },
+            "features": [
+                "Freestanding Design",
+                "Color-Coded Poles",
+                "Single Door & Vestibule"
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Big Agnes Copper Spur HV UL2",
+            "slug": "big-agnes-copper-spur-hv-ul2",
+            "brand": "Big Agnes",
+            "category": "tents",
+            "price": 549.00,
+            "rentPricePerDay": 32.00,
+            "colors": [
+                "Green",
+                "Grey"
+            ],
+            "sizes": [],
+            "rating": 4.7,
+            "reviewCount": 98,
+            "badge": null,
+            "featured": false,
+            "isRentable": true,
+            "inStock": true,
+            "description": "Ultralight backpacking tent with near-vertical walls for maximum livable space.",
+            "specs": {
+                "weight": "2.8 lbs",
+                "capacity": "2 Person",
+                "season": "3 Season",
+                "waterproof": "1200mm"
+            },
+            "features": [
+                "Ultralight",
+                "High Volume Design",
+                "Dual Doors & Vestibules"
+            ]
+        },
+        {
+            "id": 21,
+            "name": "NEMO Dagger Osmo 2P",
+            "slug": "nemo-dagger-osmo-2p",
+            "brand": "NEMO",
+            "category": "tents",
+            "price": 499.95,
+            "rentPricePerDay": 30.00,
+            "colors": [
+                "Green",
+                "Grey"
+            ],
+            "sizes": [],
+            "rating": 4.6,
+            "reviewCount": 86,
+            "badge": null,
+            "featured": false,
+            "isRentable": true,
+            "inStock": true,
+            "description": "Spacious backpacking tent with recycled fabrics and a durable, weatherproof build.",
+            "specs": {
+                "weight": "3.4 lbs",
+                "capacity": "2 Person",
+                "season": "3 Season",
+                "waterproof": "1200mm"
+            },
+            "features": [
+                "Recycled Fabric",
+                "Divvy Sack System",
+                "Dual Vestibules"
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Patagonia Down Sweater Jacket",
+            "slug": "patagonia-down-sweater-jacket",
+            "brand": "Patagonia",
+            "category": "clothing",
+            "price": 229.00,
+            "rentPricePerDay": null,
+            "colors": [
+                "Black",
+                "Navy",
+                "Green"
+            ],
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "rating": 4.8,
+            "reviewCount": 142,
+            "badge": "Best Seller",
+            "featured": true,
+            "isRentable": false,
+            "inStock": true,
+            "description": "Lightweight, packable down jacket that provides exceptional warmth for its weight.",
+            "specs": {
+                "weight": "0.9 lbs",
+                "capacity": null,
+                "season": "Cold Weather",
+                "waterproof": null
+            },
+            "features": [
+                "600-Fill Down",
+                "Packable",
+                "Windproof Shell"
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Salomon X Ultra 4 Hiking Shoes",
+            "slug": "salomon-x-ultra-4",
+            "brand": "Salomon",
+            "category": "footwear",
+            "price": 149.99,
+            "rentPricePerDay": null,
+            "colors": [
+                "Grey",
+                "Black"
+            ],
+            "sizes": [
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+            ],
+            "rating": 4.6,
+            "reviewCount": 112,
+            "badge": null,
+            "featured": false,
+            "isRentable": false,
+            "inStock": true,
+            "description": "Lightweight hiking shoes with excellent grip and stability on technical terrain.",
+            "specs": {
+                "weight": "1.8 lbs",
+                "capacity": null,
+                "season": null,
+                "waterproof": "Yes"
+            },
+            "features": [
+                "Contagrip Outsole",
+                "Quicklace System",
+                "Advanced Chassis"
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Leatherman Wave Plus",
+            "slug": "leatherman-wave-plus",
+            "brand": "Leatherman",
+            "category": "tools",
+            "price": 99.95,
+            "rentPricePerDay": null,
+            "colors": [
+                "Silver"
+            ],
+            "sizes": [],
+            "rating": 4.8,
+            "reviewCount": 156,
+            "badge": "Best Seller",
+            "featured": true,
+            "isRentable": false,
+            "inStock": true,
+            "description": "Full-size multi-tool with 18 tools built for durability and everyday utility.",
+            "specs": {
+                "weight": "0.5 lbs",
+                "capacity": null,
+                "season": null,
+                "waterproof": null
+            },
+            "features": [
+                "18 Tools in One",
+                "Stainless Steel Construction",
+                "Includes Nylon Sheath"
+            ]
+        },
+        {
+            "id": 25,
+            "name": "MSR PocketRocket 2 Stove",
+            "slug": "msr-pocketrocket-2",
+            "brand": "MSR",
+            "category": "cooking",
+            "price": 49.95,
+            "rentPricePerDay": 5.00,
+            "colors": [
+                "Red"
+            ],
+            "sizes": [],
+            "rating": 4.7,
+            "reviewCount": 94,
+            "badge": null,
+            "featured": false,
+            "isRentable": true,
+            "inStock": true,
+            "description": "Ultralight, compact canister stove that boils water in about 3.5 minutes.",
+            "specs": {
+                "weight": "0.2 lbs",
+                "capacity": null,
+                "season": null,
+                "waterproof": null
+            },
+            "features": [
+                "Ultralight",
+                "Compact Fold-Up Design",
+                "Precise Flame Control"
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Nalgene Wide Mouth Bottle 1L",
+            "slug": "nalgene-wide-mouth-1l",
+            "brand": "Nalgene",
+            "category": "accessories",
+            "price": 14.95,
+            "rentPricePerDay": null,
+            "colors": [
+                "Blue",
+                "Green",
+                "Clear"
+            ],
+            "sizes": [
+                "1L"
+            ],
+            "rating": 4.7,
+            "reviewCount": 203,
+            "badge": null,
+            "featured": false,
+            "isRentable": false,
+            "inStock": true,
+            "description": "Durable, BPA-free water bottle trusted by adventurers for decades.",
+            "specs": {
+                "weight": "0.3 lbs",
+                "capacity": "1L",
+                "season": null,
+                "waterproof": null
+            },
+            "features": [
+                "BPA-Free",
+                "Leak-Proof Cap",
+                "Wide Mouth for Easy Filling"
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Osprey Daylite Sling",
+            "slug": "osprey-daylite-sling",
+            "brand": "Osprey",
+            "category": "backpacks",
+            "price": 55.00,
+            "rentPricePerDay": null,
+            "colors": [
+                "Black",
+                "Grey"
+            ],
+            "sizes": [],
+            "rating": 4.5,
+            "reviewCount": 67,
+            "badge": null,
+            "featured": false,
+            "isRentable": false,
+            "inStock": true,
+            "description": "Compact sling pack perfect for day hikes and everyday carry.",
+            "specs": {
+                "weight": "0.7 lbs",
+                "capacity": "6L",
+                "season": null,
+                "waterproof": null
+            },
+            "features": [
+                "Adjustable Sling Strap",
+                "Front Panel Pocket",
+                "Hydration Compatible"
+            ]
+        },
+        {
+            "id": 28,
+            "name": "REI Co-op Trailmade Rain Jacket",
+            "slug": "rei-trailmade-rain-jacket",
+            "brand": "REI Co-op",
+            "category": "clothing",
+            "price": 89.00,
+            "rentPricePerDay": null,
+            "colors": [
+                "Green",
+                "Black"
+            ],
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "rating": 4.4,
+            "reviewCount": 58,
+            "badge": null,
+            "featured": false,
+            "isRentable": false,
+            "inStock": true,
+            "description": "Affordable, packable rain jacket for unpredictable weather on the trail.",
+            "specs": {
+                "weight": "0.6 lbs",
+                "capacity": null,
+                "season": null,
+                "waterproof": "2000mm"
+            },
+            "features": [
+                "Waterproof",
+                "Packable",
+                "Adjustable Hood & Cuffs"
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Smartwool Merino Hiking Socks",
+            "slug": "smartwool-merino-hiking-socks",
+            "brand": "Smartwool",
+            "category": "clothing",
+            "price": 19.95,
+            "rentPricePerDay": null,
+            "colors": [
+                "Grey",
+                "Green"
+            ],
+            "sizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "rating": 4.8,
+            "reviewCount": 187,
+            "badge": null,
+            "featured": false,
+            "isRentable": false,
+            "inStock": true,
+            "description": "Cushioned merino wool socks that regulate temperature and resist odor.",
+            "specs": {
+                "weight": null,
+                "capacity": null,
+                "season": null,
+                "waterproof": null
+            },
+            "features": [
+                "Merino Wool Blend",
+                "Cushioned Sole",
+                "Odor Resistant"
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Big Agnes Rapide SL Sleeping Pad",
+            "slug": "big-agnes-rapide-sl",
+            "brand": "Big Agnes",
+            "category": "sleeping",
+            "price": 179.95,
+            "rentPricePerDay": 11.00,
+            "colors": [
+                "Grey"
+            ],
+            "sizes": [
+                "Regular",
+                "Long"
+            ],
+            "rating": 4.6,
+            "reviewCount": 49,
+            "badge": null,
+            "featured": false,
+            "isRentable": true,
+            "inStock": true,
+            "description": "Self-inflating sleeping pad with quick-inflate valve and plush comfort.",
+            "specs": {
+                "weight": "1.1 lbs",
+                "capacity": null,
+                "season": null,
+                "waterproof": null
+            },
+            "features": [
+                "Quick-Inflate Valve",
+                "Self-Inflating",
+                "Compact Pack Size"
+            ]
+        }
+    ],
+    "images": [
+        {
+            "id": 1,
+            "productId": 1,
+            "url": "https://picsum.photos/seed/msr-tent-1/800/800",
+            "alt": "MSR Hubba Hubba NX 2P",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 2,
+            "productId": 2,
+            "url": "https://picsum.photos/seed/osprey-atmos/800/800",
+            "alt": "Osprey Atmos AG 65",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 3,
+            "productId": 3,
+            "url": "https://picsum.photos/seed/spark-2/800/800",
+            "alt": "Sea to Summit Spark II",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 4,
+            "productId": 4,
+            "url": "https://picsum.photos/seed/camp-stove/800/800",
+            "alt": "Nomad Camp Stove",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 5,
+            "productId": 5,
+            "url": "https://picsum.photos/seed/jetboil-flash/800/800",
+            "alt": "Jetboil Flash 2.0",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 6,
+            "productId": 6,
+            "url": "https://picsum.photos/seed/weather-jacket/800/800",
+            "alt": "All-Weather Jacket",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 7,
+            "productId": 7,
+            "url": "https://picsum.photos/seed/hiking-boots/800/800",
+            "alt": "Hiking Boots Pro",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 8,
+            "productId": 8,
+            "url": "https://picsum.photos/seed/goal-zero-lantern/800/800",
+            "alt": "Goal Zero Lighthouse 600",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 9,
+            "productId": 9,
+            "url": "https://picsum.photos/seed/bd-trekpoles/800/800",
+            "alt": "Black Diamond Trek Poles",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 10,
+            "productId": 10,
+            "url": "https://picsum.photos/seed/petzl-headlamp/800/800",
+            "alt": "Petzl Actik Core Headlamp",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 11,
+            "productId": 11,
+            "url": "https://picsum.photos/seed/thermarest-neoair/800/800",
+            "alt": "Therm-a-Rest NeoAir XLite",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 12,
+            "productId": 12,
+            "url": "https://picsum.photos/seed/helinox-chair/800/800",
+            "alt": "Helinox Chair One",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 13,
+            "productId": 13,
+            "url": "https://picsum.photos/seed/nomad-2p-tent/800/800",
+            "alt": "Nomad 2P Tent",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 14,
+            "productId": 14,
+            "url": "https://picsum.photos/seed/trailblazer-45l/800/800",
+            "alt": "Trailblazer 45L Backpack",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 15,
+            "productId": 15,
+            "url": "https://picsum.photos/seed/summit-0c-bag/800/800",
+            "alt": "Summit 0°C Sleeping Bag",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 16,
+            "productId": 16,
+            "url": "https://picsum.photos/seed/spark-3/800/800",
+            "alt": "Sea to Summit Spark III",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 17,
+            "productId": 17,
+            "url": "https://picsum.photos/seed/explorer-lantern/800/800",
+            "alt": "Explorer Lantern",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 18,
+            "productId": 18,
+            "url": "https://picsum.photos/seed/multitool-pro/800/800",
+            "alt": "Multi-Tool Pro",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 19,
+            "productId": 19,
+            "url": "https://picsum.photos/seed/stormbreak-2/800/800",
+            "alt": "The North Face Stormbreak 2",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 20,
+            "productId": 20,
+            "url": "https://picsum.photos/seed/copper-spur/800/800",
+            "alt": "Big Agnes Copper Spur HV UL2",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 21,
+            "productId": 21,
+            "url": "https://picsum.photos/seed/dagger-osmo/800/800",
+            "alt": "NEMO Dagger Osmo 2P",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 22,
+            "productId": 22,
+            "url": "https://picsum.photos/seed/patagonia-down/800/800",
+            "alt": "Patagonia Down Sweater Jacket",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 23,
+            "productId": 23,
+            "url": "https://picsum.photos/seed/salomon-xultra/800/800",
+            "alt": "Salomon X Ultra 4 Hiking Shoes",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 24,
+            "productId": 24,
+            "url": "https://picsum.photos/seed/leatherman-wave/800/800",
+            "alt": "Leatherman Wave Plus",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 25,
+            "productId": 25,
+            "url": "https://picsum.photos/seed/pocketrocket-2/800/800",
+            "alt": "MSR PocketRocket 2 Stove",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 26,
+            "productId": 26,
+            "url": "https://picsum.photos/seed/nalgene-bottle/800/800",
+            "alt": "Nalgene Wide Mouth Bottle 1L",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 27,
+            "productId": 27,
+            "url": "https://picsum.photos/seed/osprey-daylite/800/800",
+            "alt": "Osprey Daylite Sling",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 28,
+            "productId": 28,
+            "url": "https://picsum.photos/seed/rei-rainjacket/800/800",
+            "alt": "REI Co-op Trailmade Rain Jacket",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 29,
+            "productId": 29,
+            "url": "https://picsum.photos/seed/smartwool-socks/800/800",
+            "alt": "Smartwool Merino Hiking Socks",
+            "order": 1,
+            "isPrimary": true
+        },
+        {
+            "id": 30,
+            "productId": 30,
+            "url": "https://picsum.photos/seed/rapide-sl-pad/800/800",
+            "alt": "Big Agnes Rapide SL Sleeping Pad",
+            "order": 1,
+            "isPrimary": true
+        }
+    ],
+    "cart": [
+        {
+            "id": 1,
+            "userId": 1,
+            "productId": 1,
+            "qty": 1,
+            "color": "Green",
+            "size": null
+        },
+        {
+            "id": 2,
+            "userId": 1,
+            "productId": 2,
+            "qty": 1,
+            "color": "Black",
+            "size": "L/XL"
+        },
+        {
+            "id": 3,
+            "userId": 1,
+            "productId": 3,
+            "qty": 1,
+            "color": "Blue",
+            "size": "Regular"
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "userId": 1,
+            "orderNumber": "NM-2024-0521",
+            "items": [
+                {
+                    "productId": 1,
+                    "qty": 1,
+                    "price": 429.00,
+                    "color": "Green",
+                    "size": null
+                },
+                {
+                    "productId": 2,
+                    "qty": 1,
+                    "price": 319.00,
+                    "color": "Black",
+                    "size": "L/XL"
+                },
+                {
+                    "productId": 3,
+                    "qty": 1,
+                    "price": 149.00,
+                    "color": "Blue",
+                    "size": "Regular"
+                }
+            ],
+            "subtotal": 897.00,
+            "shipping": 0,
+            "tax": 67.28,
+            "total": 964.28,
+            "status": "Paid",
+            "paymentMethod": "Credit / Debit Card",
+            "shippingAddress": {
+                "name": "Vincent G.",
+                "address": "123 Trailhead Ave",
+                "city": "Bandung",
+                "postalCode": "40123",
+                "country": "Indonesia"
+            },
+            "createdAt": "2024-05-21T09:30:00Z"
+        }
+    ]
+}
